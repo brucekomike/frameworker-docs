@@ -1,0 +1,47 @@
+    name: Deploy Sphinx documentation to GitHub Pages
+
+    on:
+      push:
+        branches:
+          - main  # Or your main branch
+
+    jobs:
+      deploy:
+        runs-on: ubuntu-latest
+        steps:
+          - name: Checkout code
+            uses: actions/checkout@v4.2.2
+
+          - name: Set up Python
+            uses: actions/setup-python@v5.4.0
+            with:
+              python-version: '3.12'  # Or your Python version
+
+          - name: Install dependencies
+            run: |
+              python -m pip install --upgrade pip
+              python -m pip install -r requirements.txt
+
+          - name: Build Sphinx documentation
+            run: |
+              cd docs
+              make html
+
+          - name: GH Pages deploy
+            # You may pin to the exact commit or the version.
+            # uses: Cecilapp/GitHub-Pages-deploy@18b21493b3b92508912541cad41d189a050fd4cd
+            uses: Cecilapp/GitHub-Pages-deploy@3.2.2
+            with:
+                # A verified email.
+                email: brucekomike@gmail.com
+                # Where static files are.
+                build_dir: build/html # optional, default is _site
+                # Which branch to push files.
+                branch: ph-pages # optional
+                # The custom domain name.
+                cname: frameworker # optional
+                # `yes` in case of a Jekyll site.
+                jekyll: no # optional, default is no
+                # A custom commit message.
+                #commit_message: # optional
+                    
