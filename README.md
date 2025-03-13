@@ -3,6 +3,10 @@
 
 
 <!-- start elevator-pitch -->
+## welcome
+this is the documentation of frameworker.
+
+the software repo is https://github.com/brucekomike/frameworker
 ## quick start
 clone this repo
 ```

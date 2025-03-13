@@ -65,6 +65,7 @@ html_theme_options = {
     "source_repository": "https://github.com/brucekomike/frameworker-docs",
     "source_branch": "main",
     "source_directory": "source/",
+    "navigation_with_keys": True,
 }
 html_logo = 'frameworker.svg'
 html_favicon = 'frameworker.svg'
