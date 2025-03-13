@@ -56,6 +56,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'Makefile',
 
 html_theme = 'furo'
 html_static_path = ['_static']
+html_title = "furo template"
 html_last_updated_fmt = ''
 html_css_files = [
         "footer.css",
