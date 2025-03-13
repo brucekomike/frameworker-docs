@@ -20,6 +20,7 @@ extensions = ["sphinx_inline_tabs",
 "sphinxext.opengraph",
 'sphinx_copybutton',
 'myst_parser',
+'sphinx.ext.githubpages',
 ]
 myst_enable_extensions = [
     "amsmath",
@@ -55,6 +56,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'Makefile',
 
 html_theme = 'furo'
 html_static_path = ['_static']
+html_title = "frameworker"
 html_last_updated_fmt = ''
 html_css_files = [
         "footer.css",
