@@ -1,4 +1,4 @@
-# modules
+# extentions
 ```{toctree}
 :maxdepth: 2
 :hidden:

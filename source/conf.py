@@ -10,7 +10,7 @@ project = 'template-intergrated'
 copyright = '2025, brucekomike'
 author = 'brucekomike'
 release = 'v0.1.0'
-language='zh_CN'
+language='en'
 # 'en' 'jp' 'zh_CN'
 
 # -- General configuration ---------------------------------------------------
@@ -56,7 +56,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'Makefile',
 
 html_theme = 'furo'
 html_static_path = ['_static']
-html_title = "frameworker"
+html_title = "frameworker doc"
 html_last_updated_fmt = ''
 html_css_files = [
         "footer.css",

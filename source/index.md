@@ -1,8 +1,8 @@
----
+<!-- ---
 hide-toc: true
----
+--- -->
 
-# furo template
+# frameworker
 
 A sphinx template for building document with furo.
 
@@ -13,8 +13,9 @@ A sphinx template for building document with furo.
 
 ```{toctree}
 :maxdepth: 3
-00-built-ins/index
-20-extensions/index
+00-intro/index
+05-built-ins/index
+20-extentions/index
 ```
 
 ```{toctree}
