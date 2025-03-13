@@ -22,5 +22,6 @@ list actions
 ./frameworker [options] <action> [action options]
 ```
 
-## edit the
+## contribute to this document
+any issue or PR is welcome.
 <!-- end elevator-pitch -->

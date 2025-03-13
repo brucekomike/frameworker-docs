@@ -61,3 +61,10 @@ html_last_updated_fmt = ''
 html_css_files = [
         "footer.css",
 ]
+html_theme_options = {
+    "source_repository": "https://github.com/brucekomike/frameworker-docs",
+    "source_branch": "main",
+    "source_directory": "source/",
+}
+html_logo = 'frameworker.svg'
+html_favicon = 'frameworker.svg'

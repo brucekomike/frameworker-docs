@@ -13,6 +13,7 @@ A sphinx template for building document with furo.
 
 ```{toctree}
 :maxdepth: 3
+:hidden:
 00-intro/index
 05-built-ins/index
 20-extentions/index
