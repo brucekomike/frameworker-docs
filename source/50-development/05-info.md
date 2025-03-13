@@ -1,4 +1,4 @@
 # write down descriptions
-```{caution}
+```{note}
 WIP
 ```

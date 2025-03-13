@@ -1,4 +1,4 @@
 # batch user deployment
-```{caution}
+```{note}
 WIP
 ```

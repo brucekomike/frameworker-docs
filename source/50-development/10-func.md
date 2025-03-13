@@ -1,4 +1,4 @@
 # implement functions
-```{caution}
+```{note}
 WIP
 ```
