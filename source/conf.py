@@ -20,6 +20,7 @@ extensions = ["sphinx_inline_tabs",
 "sphinxext.opengraph",
 'sphinx_copybutton',
 'myst_parser',
+'sphinx.ext.githubpages',
 ]
 myst_enable_extensions = [
     "amsmath",
