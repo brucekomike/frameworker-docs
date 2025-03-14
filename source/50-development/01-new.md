@@ -1,10 +1,19 @@
 # duplicate the template
-before starting to write you code, please use this template as sketch.
+before starting to write you code, you can duplicate the template to a new module.
+````{tab} sketcher
+```sh
+# assure you have a shell at the root of the project
+./frameworker template sketch <name>
+```
+````
+````{tab} manually
 ```sh
 # assure you have a shell at the root of the project
 cd lib
 cp template <module name>
 ```
+````
+
 then you can have a glances of the file structure:
 ## file structure
 ```{list-table}
@@ -14,7 +23,7 @@ then you can have a glances of the file structure:
   - purpose
 
 * - 01-info.sh
-  - defines the help messages
+  - defines module info and help messages
 
 * - 10-function.sh
   - function implements
@@ -22,9 +31,12 @@ then you can have a glances of the file structure:
 * - 90-actions.sh
   - defines action for getopt
 
+* - 95-default-action.sh
+  - defines the default action
+
 * - 99-main.sh
   - the main function
-  (also containning the defualt action)
+
 ```
 
 ## start editing

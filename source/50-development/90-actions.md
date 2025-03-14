@@ -2,6 +2,7 @@
 now you can edit the action list according to the actions 
 defined `01-info`
 
+default action is defined in `95-default-action.sh`
 ## example
 ```sh
 function parse_action(){

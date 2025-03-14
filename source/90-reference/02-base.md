@@ -11,6 +11,7 @@ first part of options is also processed here.
 - info_echo()
 - verb_echo()
 - red_echo()
+- error_echo()
 
 ### text file utils
 
