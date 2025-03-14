@@ -4,7 +4,7 @@ which contain basic functions and can be duplicated
 to create new module.
 
 ## functions
-```plain
+```none
 Action list:
     help             - show this help
     print [contents] - print the string after the action

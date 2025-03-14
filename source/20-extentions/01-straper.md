@@ -7,7 +7,7 @@ scripts for batch clone git repositories.
 ```
 
 ## usage
-```plain
+```none
 Action list:
     help             - show this help
     extract <url> [dir]    - extract env from given url to dir, default to ~/Workspace/

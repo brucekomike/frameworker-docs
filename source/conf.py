@@ -67,5 +67,5 @@ html_theme_options = {
     "source_directory": "source/",
     "navigation_with_keys": True,
 }
-html_logo = 'frameworker.svg'
-html_favicon = 'frameworker.svg'
+html_logo = '_static/frameworker.svg'
+html_favicon = '_static/frameworker.svg'

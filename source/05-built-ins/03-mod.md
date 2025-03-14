@@ -6,7 +6,7 @@ this is just a git warpper,
 so you can clone repos into lib folder manully.
 ```
 ## usage
-```plain
+```none
 Action list:
     help             - show this help
     install <URL> <name> - install content from given url
