@@ -69,3 +69,10 @@ html_theme_options = {
 }
 html_logo = '_static/frameworker.svg'
 html_favicon = '_static/frameworker.svg'
+highlight_language = 'text'
+#html_logo = '_static/logo.svg'
+ogp_site_url = 'https://brucekomike.github.io/frameworker-docs'
+ogp_image = '_static/frameworker.svg'
+#ogp_image_alt = 'site logo'
+ogp_site_name = 'frameworker-docs'
+ogp_use_first_image = True
